@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>HMR demo</title>
+    <link href="~/dist/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/dist/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/dist/vendors/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="~/dist/build/css/custom.min.css" rel="stylesheet">
+    <script type="text/javascript">
+  
+        window.onload = function () {
+            console.log(window.location.href);
+            if (window.location.href.indexOf("login")>0) {
+                $("body").addClass("login");
+            }
+       
+        };
+    </script>
+</head>
+<body class="nav-md ">
+    <div id="root">
+    
+    </div>
+    <script crossorigin  src="https://unpkg.com/formik/dist/formik.umd.production.js"></script>
+    <script src="~/dist/App.js" asp-append-version="true"></script>
+    <script src="~/dist/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/dist/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/dist/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/dist/vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="~/dist/vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="~/dist/vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="~/dist/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="~/dist/vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="~/dist/vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="~/dist/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/dist/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/dist/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/dist/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/dist/vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="~/dist/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/dist/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/dist/vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="~/dist/vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="~/dist/vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="~/dist/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="~/dist/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/dist/vendors/moment/min/moment.min.js"></script>
+    <script src="~/dist/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="~/dist/build/js/custom.min.js"></script>
+	
+</body>
+</html>
